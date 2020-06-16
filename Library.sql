@@ -1,6 +1,6 @@
 IF NOT EXISTS (SELECT name FROM master.sys.databases WHERE name = N'Lib')
 CREATE DATABASE Lib;
-
+GO
 IF  EXISTS (SELECT name FROM master.sys.databases WHERE name = N'Lib')
 USE Lib;
 
